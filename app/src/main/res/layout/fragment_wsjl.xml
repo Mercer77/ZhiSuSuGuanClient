@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#ffffff"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="寝室号："
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/choose_roomnum"
+                android:textSize="15sp"
+                android:maxLines="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="日期："
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="---"
+                android:textStyle="bold"
+                android:id="@+id/choose_date"
+                android:textSize="15sp"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="查询"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/find"
+                android:background="@drawable/button_shape1"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="  寝室名单"
+            android:textStyle="bold"
+            android:background="#FFD700"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lv_qj">
+
+        </ListView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

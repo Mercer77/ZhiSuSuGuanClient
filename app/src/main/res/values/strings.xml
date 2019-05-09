@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ZhiSuSuGuanClient</string>
+    <string-array name="roomnum">
+        <item>4101</item>
+        <item>4102</item>
+        <item>4103</item>
+        <item>4104</item>
+        <item>4105</item>
+        <item>4106</item>
+        <item>4107</item>
+        <item>4107</item>
+        <item>4107</item>
+        <item>4107</item>
+        <item>4107</item>
+        <item>4107</item>
+        <item>4107</item>
+        <item>4107</item>
+        <item>4107</item>
+
+    </string-array>
+</resources>
